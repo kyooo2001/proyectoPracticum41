@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Registrarse como nuevo paciente</title>
+        <title>Iniciar sesión</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -43,7 +43,7 @@
                     <div class="row">
                     <div class="col-12">
                         <div class="mb-5">
-                        <h3>Registrarse como nuevo paciente</h3>
+                        <h3>Iniciar sesión</h3>
                         </div>
                     </div>
                     </div>
@@ -58,31 +58,25 @@
                         <input type="password" class="form-control" name="password" id="password" value="" required>
                         </div>
                         <div class="col-12">
-                        <label for="password" class="form-label">Vuelva a escribir la contraseña <span class="text-danger">*</span></label>
-                        <input type="password" class="form-control" name="password" id="password" value="" required>
-                        </div>
-                        <!----   KEEP SESSION OPEN
-                        <div class="col-12">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" name="remember_me" id="remember_me">
                             <label class="form-check-label text-secondary" for="remember_me">
                             Mantener iniciada la sesión
                             </label>
                         </div>
-                        </div> -->
+                        </div>
                         <div class="col-12">
                         <div class="d-grid">
-                            <button class="btn bsb-btn-xl btn-primary" type="submit">Registrarme como nuevo paciente</button>
+                            <button class="btn bsb-btn-xl btn-primary" type="submit">Iniciar sesión</button>
                         </div>
                         </div>
                     </div>
-                    
                     </form>
                     <div class="row">
                     <div class="col-12">
                         <hr class="mt-5 mb-4 border-secondary-subtle">
                         <div class="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-end">
-                        <a href="#!" class="link-secondary text-decoration-none">Inicio de sesíon</a>
+                        <a href="#!" class="link-secondary text-decoration-none">Registrame como nuevo paciente</a>
                         <a href="#!" class="link-secondary text-decoration-none">Olvidé mi contraseña</a>
                         </div>
                     </div>

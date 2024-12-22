@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Registrarse como nuevo paciente</title>
+        <title>Recuperar contraseña</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -43,7 +43,7 @@
                     <div class="row">
                     <div class="col-12">
                         <div class="mb-5">
-                        <h3>Registrarse como nuevo paciente</h3>
+                        <h3>¿Olvidaste la contraseña?</h3>
                         </div>
                     </div>
                     </div>
@@ -53,6 +53,7 @@
                         <label for="email" class="form-label">Correo electrónico <span class="text-danger">*</span></label>
                         <input type="email" class="form-control" name="email" id="email" placeholder="sucuenta@ejemplo.com" required>
                         </div>
+                        <!----   PASSWORD
                         <div class="col-12">
                         <label for="password" class="form-label">Contraseña <span class="text-danger">*</span></label>
                         <input type="password" class="form-control" name="password" id="password" value="" required>
@@ -60,7 +61,7 @@
                         <div class="col-12">
                         <label for="password" class="form-label">Vuelva a escribir la contraseña <span class="text-danger">*</span></label>
                         <input type="password" class="form-control" name="password" id="password" value="" required>
-                        </div>
+                        </div> -->
                         <!----   KEEP SESSION OPEN
                         <div class="col-12">
                         <div class="form-check">
@@ -72,7 +73,7 @@
                         </div> -->
                         <div class="col-12">
                         <div class="d-grid">
-                            <button class="btn bsb-btn-xl btn-primary" type="submit">Registrarme como nuevo paciente</button>
+                            <button class="btn bsb-btn-xl btn-primary" type="submit">Solicitar nueva contraseña</button>
                         </div>
                         </div>
                     </div>
@@ -83,7 +84,7 @@
                         <hr class="mt-5 mb-4 border-secondary-subtle">
                         <div class="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-end">
                         <a href="#!" class="link-secondary text-decoration-none">Inicio de sesíon</a>
-                        <a href="#!" class="link-secondary text-decoration-none">Olvidé mi contraseña</a>
+                        <a href="#!" class="link-secondary text-decoration-none">Registrarse como nuevo paciente</a>
                         </div>
                     </div>
                     </div>
