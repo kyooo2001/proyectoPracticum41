@@ -1,5 +1,5 @@
 <?php
-
+namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,5 +25,20 @@ Route::get('/login', function () {
 });
 
 Route::get('/recovery', function () {
-    return view('recoverypwd');
+    return view('recoverypwd'); 
 });
+
+Route::get('/doctors', function () {
+    return view('doctors'); 
+});
+
+Route::get('/patients', function () {
+    return view('patients'); 
+});
+
+Route::get('/', function () {
+    return view('home');
+})->name ('home');
+
+Route::resource('doctors', DoctorController::class);
+Route::resource('patients', PatientController::class);
